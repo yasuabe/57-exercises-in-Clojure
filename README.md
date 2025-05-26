@@ -99,7 +99,7 @@ A personal project to solve the exercises from the book *Exercises for Programme
 ## Technologies Used
 - Clojure CLI version 1.11.1
 - GNU Emacs 29.3
-- Spacemacs: develop (spacemacs-version is 0.999.0).
+- Spacemacs: develop (spacemacs-version is 0.999.0). ([setup log](SETUPLOG.md))
 
 ### Dependency
 - TODO

@@ -1,0 +1,38 @@
+# Compiled class files
+*.class
+
+# REPL temporary files
+repl-history
+.lein-repl-history
+
+# Leiningen specific files
+/.lein-deps-sum
+/.lein-failures
+/.lein-plugins/
+target/
+
+# Clojure CLI tools (deps.edn) specific files
+/.cpcache/
+
+# Editor/IDE specific files
+.idea/
+*.iml
+*.swp
+*~
+.project
+.classpath
+.settings/
+.vscode/
+.DS_Store
+
+# OS-specific files
+Thumbs.db
+
+# clj-kondo cache
+.clj-kondo/
+
+# Allow project-specific configuration
+!.clj-kondo/config.edn
+
+# LSP cache
+.lsp/.cache/

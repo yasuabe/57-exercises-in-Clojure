@@ -10,7 +10,7 @@ A personal project to solve the exercises from the book *Exercises for Programme
 | Ex01 [x] [Saying Hello](src/ex01/main.clj)                      | | | 1(1)
 | Ex02 [ ] [Counting the Number of Characters](src/ex02/main.clj) | | |
 | Ex03 [ ] [Printing Quotes](src/ex03/main.clj)                   | | |
-| Ex04 [ ] [Mad Lib](src/ex04/main.clj)                           | | |
+| Ex04 [x] [Mad Lib](src/ex04/main.clj)                           | | | 1(1)
 | Ex05 [ ] [Simple Math](src/ex05/main.clj)                       | | |
 | Ex06 [ ] [Retirement Calculator](src/ex06/main.clj)             | | |
 #### Chapter 3: Calculations

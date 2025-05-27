@@ -79,7 +79,7 @@ A personal project to solve the exercises from the book *Exercises for Programme
 | Ex49 [ ] [Flickr Photo Search](src/ex49/main.clj)       | | |
 | Ex50 [ ] [Movie Recommendations](src/ex50/main.clj)     | |
 | Ex51 [ ] [Pushing Notes to Firebase](src/ex51/main.clj) | | | |
-| Ex52 [ ] [Creating Your Own Time Service](src/ex52/) | | |
+| Ex52 [x] [Creating Your Own Time Service](src/ex52/) | http-kit, ring, clojure.java-time, cheshire| REST server/client, time formatting | 4(3)
 #### Chapter 10: Full Programs
 | Exercise | dependencies | Memo  | Lv.  |
 | -------- | -------------| ----- | -----:|
@@ -89,7 +89,7 @@ A personal project to solve the exercises from the book *Exercises for Programme
 | Ex56 [ ] [Tracking Inventory](src/ex56/main.clj) | | |  |
 | Ex57 [ ] [Trivia App](src/ex57/main.clj)         | | |  |
 
-- ※ [ ] Completed, [ ] Pending
+- ※ [x] Completed, [ ] Pending
 - ※ Lv. (level): p(q), where:
   - p: Relative programming skill level used to solve the exercise (1 = beginner, 5 = advanced).
   - q: Relative complexity of the exercise requirements (1 = simple, 5 = complex).
@@ -102,7 +102,10 @@ A personal project to solve the exercises from the book *Exercises for Programme
 - Spacemacs: develop (spacemacs-version is 0.999.0). ([setup log](SETUPLOG.md))
 
 ### Dependency
-- TODO
+- [http-kit](https://clojars.org/http-kit): Async HTTP server/client toolkit
+- [ring](https://clojars.org/ring): Web request/response abstraction
+- [clojure.java-time](https://clojars.org/clojure.java-time): Java time API wrapper
+- [cheshire](https://clojars.org/cheshire): Fast JSON encoding/decoding
 
 ## How to Run
 ```
@@ -120,4 +123,4 @@ Hello, Brian, nice to meet you!
 - I relied on ChatGPT/GPT-4o just a little bit.
 
 ## References
-- TODO
+- [Clojars](https://clojars.org/)

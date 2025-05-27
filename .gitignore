@@ -13,6 +13,8 @@ target/
 
 # Clojure CLI tools (deps.edn) specific files
 /.cpcache/
+**/.cpcache/
+**/.nrepl-port
 
 # Editor/IDE specific files
 .idea/

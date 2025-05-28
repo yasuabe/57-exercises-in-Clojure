@@ -106,6 +106,7 @@ A personal project to solve the exercises from the book *Exercises for Programme
 - [ring](https://clojars.org/ring): Web request/response abstraction
 - [clojure.java-time](https://clojars.org/clojure.java-time): Java time API wrapper
 - [cheshire](https://clojars.org/cheshire): Fast JSON encoding/decoding
+- [test-runner](io.github.cognitect-labs/test-runner): test runner
 
 ## How to Run
 ```
@@ -118,6 +119,21 @@ $ clojure -M -m ex01.core
 What is your name? Brian
 Hello, Brian, nice to meet you!
 ```
+
+## How to Test
+all tests
+```
+$ clojure -X:test
+```
+tests in specific namespace 
+```
+$ clojure -X:test :namespaces '[ex{NN}.{~}]'
+```
+tests under specific directory
+```
+$ clojure -X:test :dirs '["test/ex{NN}"]'
+```
+
 
 ## Notes
 - I relied on ChatGPT/GPT-4o just a little bit.

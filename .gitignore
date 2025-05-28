@@ -25,6 +25,7 @@ target/
 .classpath
 .settings/
 .vscode/
+.calva/
 .DS_Store
 
 # OS-specific files
